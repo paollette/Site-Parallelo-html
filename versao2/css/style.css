@@ -44,5 +44,33 @@ nav ul li{
 nav ul li a{
     padding: 55px 20px 55px 0;
     float: left;
+    transition: rgb(255, 187, 0) 1s; /* testando cor mouse em cima*/
+}
 
+nav #menu_principal {
+    float: right;
+    margin-right: 100px;
+}
+span{
+    color: rgb(228, 228, 228);
+    font-size: 11 px;
+}
+
+#menu_principal li span{
+    font-family: Montserrat, sans-serif;
+    margin-right: 3px;
+    margin-top: 55px;
+    float: left;
+}
+
+#menu_principal li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase; /* Deixa todo o texto maisculo*/
+}
+
+/* ---------------------------------------- Parallelo 2 -----------------------------------------*/
+
+#parallelo2{
+    background-color: rgb(255, 255, 255);
 }
