@@ -41,7 +41,7 @@ nav ul{
 nav ul li{
     float: left;
     font-size: 16px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul li a{
@@ -74,7 +74,7 @@ span{
 }
 
 #menu_principal li a:hover{
-  color:#fac20a;
+  color:#e7a920;
   transition: 1s;
   text-decoration: line-through;
 }
@@ -84,10 +84,97 @@ section{
     width: 100%;
     height: 500px;
     background-repeat: repeat-x;
+    padding-top: 100px; /* margem interna */
 
 }
 
-/* ---------------------------------------- Parallelo 2 -----------------------------------------*/
+section{}
+
+.icons{
+    height: 100px;
+    width: 345px;
+    margin: 0 auto; /* margem externa */
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+/* Arrumar depois essa bagunça de icon e txt*/
+
+.icons .icon img{
+    width: 108px;
+}
+.icons .icon1 img{
+    width: 91px;
+}
+.icons .icon2 img{
+    width: 97px;
+}
+
+.txt{
+    height: 100px;
+}
+
+.txt{
+    width: 850px;
+    margin: 0 auto;
+
+}
+.txt h6{
+    font-size: 28px;
+    font-weight: 300;
+    width: 80%;
+    line-height: 40px;
+    font-family:'Roboto Slab', serif; /* carregar a fonte no google fonte */
+    text-align: center;
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 20px;
+}   
+
+section.trabalhos{ /* Seção teste "nossos projetos" */
+    background: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -150px;
+}
+
+.txt1 h6{
+    font-size: 25px;
+    font-weight: 320;
+    width: 100%;
+    color: #e7a920;
+    margin: 0 auto 0 auto;
+    font-style: italic;
+    
+}
+.txt2 h6{
+    font-size: 85px;
+    font-weight: 750;
+    width: 100%;
+    color: black;
+    margin: 0 auto 0 auto;
+    text-decoration: double;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.icone{
+    margin-top: 13px;
+
+}
+
+.txt3 h6{
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    color: black;
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+
+}
+
+/* ---------------------------------------------------------------------------------*/
 
 #parallelo2{
     background-color: rgb(255, 255, 255);
